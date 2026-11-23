@@ -1,24 +1,24 @@
 {
   "verification_release": 31,
   "companion_edition": "2026-11-23",
-  "manuscript_version": "journal-latex-2026-11-22",
+  "manuscript_version": "journal-latex-2026-11-23",
   "software_reference": 24,
   "documents": [
     {
       "filename": "SciPost_LaTeX.zip",
       "member": "main.tex",
-      "sha256": "5f18c5275e73f035dbf35a5d5d16f3b1f93e015ae956508f4618237e9a93ebe0",
+      "sha256": "a92a566efb9f4de836ce5041dba1a8b91b332e1fca91ea71816ddef7ba4e1847",
       "pdf_pages": 34,
-      "pdf_sha256": "5994f6604367a51e40c9bed0adbab25c92f8555b925b56ce5590c5b7262d4e4f",
-      "archive_sha256": "00b875cb6002a31c15e31af98da8b68f388375ef94ac077d663a02e72a6292d6"
+      "pdf_sha256": "b32e8459f4d460a4622d6b77f3bb1b29f462c8301a62e2df996dd5d2da50d4fe",
+      "archive_sha256": "7ad75dfd4db25954234507a7e90bb2fab04b6b3dae9c18c7044b5b681d721510"
     },
     {
       "filename": "PRA_LaTeX.zip",
       "member": "main.tex",
-      "sha256": "ae4b3c951bc6f8bda847bc257c55f0bca6fee8eb296c016e11ce714be46b23c5",
+      "sha256": "2d35082865a02959ecd51c93a295d5dc949061d8c0bd613c9d82c8df7583a6df",
       "pdf_pages": 20,
-      "pdf_sha256": "b433d30c5af3f55bdd3cf960e491bf2315c6933b9d51ec6868f65bd3fa3136b1",
-      "archive_sha256": "9b60a1290ef40fd6fe2e4c1c4e6f022eae2240cc3b587d9e7022ab2689386067"
+      "pdf_sha256": "15f1018c5ea776bc5ad0f25cae860d0cd1e1d0e49db5265c9dfb5a272cecb216",
+      "archive_sha256": "9dd2f482b2a4c4918ebace46183763999a2e561ab0e627dfbfa46153cf395b50"
     }
   ],
   "upstream_release_31_archive_sha256": "68da80125ee31309e1ceb8f1c406855c51dc5cea6ef9cbf6e93e22376f18bc14",
