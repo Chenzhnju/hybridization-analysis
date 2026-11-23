@@ -31,6 +31,6 @@ The current SciPost and PRA manuscript fingerprints, PDF page counts, and source
 
 All distributed text uses UTF-8 and LF line endings. `.gitattributes` preserves these bytes through Git checkout, including on Windows. `.gitignore` excludes generated reports and Python caches. The GitHub Actions workflow is configured to run integrity checks, complete verification, tests, and worked examples on Windows and Ubuntu with Python 3.8, 3.12, and 3.14.
 
-Please cite this software and the accompanying manuscript when using the results. The software authors, title, and version are provided in [CITATION.cff](CITATION.cff). Publication steps, release-note text, and instructions for adding the final repository address and DOI are in [RELEASING.md](docs/RELEASING.md). A Chinese guide is available in [README_中文.txt](README_中文.txt).
+Please cite this software and the accompanying manuscript when using the results. The software authors, title, and version are provided in [CITATION.cff](CITATION.cff). Publication steps, release-note text, and instructions for adding the final repository address and DOI are in [RELEASING.md](docs/RELEASING.md).
 
 Released under the [MIT License](LICENSE). Copyright © 2026 Zihan Chen, Shengjun Wu, and Zeng-Bing Chen.
