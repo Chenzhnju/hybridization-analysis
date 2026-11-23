@@ -1,0 +1,91 @@
+{
+  "publication_revision": 31,
+  "software_version": "31.2",
+  "manuscript_version": "journal-latex-2026-11-22",
+  "run_id": "dbeee3dcefa548dab9ecbdaa9244d507",
+  "started_utc": "2026-11-23T13:06:01.605734+00:00",
+  "status": "PASS_EXACT_VERIFICATION",
+  "python_version": "3.14.6",
+  "proof_map": {
+    "preliminaries": {
+      "code": [
+        "verify_prerequisites.py",
+        "grid_witness.py"
+      ],
+      "manuscript": [
+        "D.1 (Eq. (D.3) and witness bound)",
+        "D.2 final scalar comparison"
+      ]
+    },
+    "global": {
+      "code": [
+        "verify_global.py",
+        "grid_witness.py",
+        "certificates/global.json"
+      ],
+      "manuscript": [
+        "D.3",
+        "Lemma D.1",
+        "Eq. (D.7)"
+      ]
+    },
+    "local": {
+      "code": [
+        "verify_local.py",
+        "local_rows.py",
+        "certificates/local.json"
+      ],
+      "manuscript": [
+        "D.4, Lemma D.2",
+        "Eqs. (D.8)-(D.10)",
+        "D.6 marginal identities"
+      ]
+    },
+    "analytic_arguments_not_automated": {
+      "manuscript": [
+        "D.1 moment and witness reduction",
+        "D.2 geometric containment and conditional means",
+        "D.3 reduction of physical responses to finite covers",
+        "D.4 averaging and integration",
+        "D.5 optimal-cost comparison and endpoints",
+        "D.6 passage from equality to the classification of protocols"
+      ]
+    }
+  },
+  "stages": {
+    "preliminaries": "PASS_FINITE_PRELIMINARIES",
+    "global": "PASS_GLOBAL_CERTIFICATE",
+    "local": "PASS_LOCAL_CERTIFICATE"
+  },
+  "sha256": {
+    "verify.py": "060d107bab05fffdfaa0749b297c3c5574d132c74b9cbea1a1aeaad8d890f313",
+    "verify_prerequisites.py": "b784d7bc09c61fcd33343349bed81ad975ff8fa229ddb6905f7f96308612aeda",
+    "verify_global.py": "3b59889125365f626a2a668011c74d720a42820a1c973b180fb87e54af1a54d2",
+    "verify_local.py": "d5069c3456e40761bc622901f5c8f8511e5751e9e84b7db42aad1f88a056aed0",
+    "local_rows.py": "819e47c9daccea464e3962f1c0a467044603946ebdfe3bb39a77abd6bd117171",
+    "grid_witness.py": "8b4bce3d846fbc08f0c4e3f6deb512c625c8d1bf528523dca5a47d085bc54c3a",
+    "dyadic_cover.py": "8a750693b6daa720063ef52b313d7f7d358ff02dab08f7edd600977d7f80a366",
+    "exact_intervals.py": "6ae5a4af0ae1e8b1c19c766fbaa04f23897f658d887ed0b4b8522d2e22027792",
+    "exact_polynomials.py": "e4f03781d414b05132b3c8a0cbd11f20ae3325d607c51cff0de748d1b3abf718",
+    "verification_io.py": "095e8e9cc7bd6c42f3fb00441777502a16f4934b1309edc0f8e09377e08cfad2",
+    "certificates/global.json": "356056e233784efe284faebea841b793983df5704a0beedf14d5b03f41aead1e",
+    "certificates/local.json": "f7470e1bd776e48a6d57e0c367e901dd190a019cf15a9cd878db6ee195c3d5c0"
+  },
+  "scope": "Finite checks in D.1-D.6. Geometric reductions, integration, and the classification of physical protocols are given in the manuscript.",
+  "counts": {
+    "preliminary_vertex_checks": 216,
+    "support_orbits": 49,
+    "retained_local_types": 5,
+    "global_witnesses": 525,
+    "global_leaves": 2744,
+    "local_leaves": 467,
+    "local_row_interval_checks": 16996,
+    "weight_vertex_checks": 320,
+    "principal_and_exchanged_identities": 12,
+    "negative_controls_rejected": 18
+  },
+  "standard_library_only": true,
+  "floating_point_in_acceptance_tests": false,
+  "finished_utc": "2026-11-23T13:06:02.925714+00:00",
+  "seconds": 1.321
+}

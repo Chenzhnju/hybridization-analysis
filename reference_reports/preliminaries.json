@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FINITE_PRELIMINARIES",
+  "publication_revision": 31,
+  "manuscript_sections": [
+    "D.1",
+    "D.2 (final scalar comparison only)"
+  ],
+  "cc_protocol": {
+    "status": "PASS",
+    "visibility": [
+      "0",
+      "2/3"
+    ],
+    "weights": [
+      "3/8",
+      "3/8",
+      "1/4"
+    ],
+    "local_means": [
+      0,
+      0
+    ],
+    "uu_diagonal": "2/3",
+    "correlation": "-zeta I_2"
+  },
+  "mode_cap": {
+    "status": "PASS",
+    "response_vertices": 72,
+    "mode_vertices": 3,
+    "vertex_checks": 216,
+    "lower_bound": "1/30",
+    "witness": [
+      -3,
+      -3,
+      -5,
+      -5,
+      10,
+      2,
+      2,
+      10
+    ],
+    "trace": 20,
+    "excluded_domain": "c >= 4/5; party exchange gives b >= 4/5"
+  },
+  "small_cost_final_square_comparison": true,
+  "small_cost_cutoff": "1/4096",
+  "negative_controls_rejected": [
+    "zero missing-quadrant witness"
+  ],
+  "scope": "Eq. (D.3), the missing-quadrant witness, and the scalar cutoff in Eq. (D.6).",
+  "software_version": "31.2",
+  "manuscript_version": "journal-latex-2026-11-22",
+  "run_id": "dbeee3dcefa548dab9ecbdaa9244d507",
+  "started_utc": "2026-11-23T13:06:01.605734+00:00",
+  "stage": "preliminaries",
+  "finished_utc": "2026-11-23T13:06:01.622460+00:00"
+}

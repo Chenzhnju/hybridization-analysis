@@ -1,0 +1,2 @@
+# Keep distributed file bytes stable for SHA256SUMS on every platform.
+* text eol=lf

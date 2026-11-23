@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript when using these verification results."
+type: software
+title: "Exact certificates and verification software for Hybrid correlation generation with finite shared randomness"
+authors:
+  - family-names: Chen
+    given-names: Zihan
+  - family-names: Wu
+    given-names: Shengjun
+  - family-names: Chen
+    given-names: Zeng-Bing
+version: "31.2"
+license: MIT
+repository-code: "https://github.com/Chenzhnju/hybridization-analysis"
+abstract: >-
+  Exact finite verification for Appendix D of Hybrid correlation generation
+  with finite shared randomness. The software checks support covers, witness
+  inequalities, local row bounds, and marginal identities using integer,
+  rational, and outward-rounded interval arithmetic.
+keywords:
+  - quantum correlations
+  - shared randomness
+  - exact verification
+  - reproducible research

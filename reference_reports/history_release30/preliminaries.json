@@ -1,0 +1,37 @@
+{
+  "status": "PASS_FINITE_PRELIMINARIES",
+  "mode_cap": {
+    "status": "PASS",
+    "response_vertices": 72,
+    "mode_vertices": 3,
+    "vertex_checks": 216,
+    "lower_bound": "1/30",
+    "witness": [
+      -3,
+      -3,
+      -5,
+      -5,
+      10,
+      2,
+      2,
+      10
+    ],
+    "trace": 20,
+    "excluded_domain": "c >= 4/5; party exchange gives b >= 4/5"
+  },
+  "publication_revision": 30,
+  "manuscript_sections": [
+    "D.1",
+    "D.2 (final scalar comparison only)"
+  ],
+  "small_cost_final_square_comparison": true,
+  "negative_controls_rejected": [
+    "zero missing-quadrant witness"
+  ],
+  "scope": "Finite missing-quadrant witness checks and final scalar sign; triangle and conditioning arguments remain analytic in Appendix D.2",
+  "manuscript_version": "four-item-shortened-2026-11-17",
+  "run_id": "81086db1ed084f08b5e3e20590d6eca0",
+  "started_utc": "2026-11-17T12:43:15.558791+00:00",
+  "stage": "preliminaries",
+  "finished_utc": "2026-11-17T12:43:15.587141+00:00"
+}

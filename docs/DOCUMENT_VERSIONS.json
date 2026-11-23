@@ -1,0 +1,36 @@
+{
+  "verification_release": 31,
+  "companion_edition": "2026-11-23",
+  "manuscript_version": "journal-latex-2026-11-22",
+  "software_reference": 24,
+  "documents": [
+    {
+      "filename": "SciPost_LaTeX.zip",
+      "member": "main.tex",
+      "sha256": "5f18c5275e73f035dbf35a5d5d16f3b1f93e015ae956508f4618237e9a93ebe0",
+      "pdf_pages": 34,
+      "pdf_sha256": "5994f6604367a51e40c9bed0adbab25c92f8555b925b56ce5590c5b7262d4e4f",
+      "archive_sha256": "00b875cb6002a31c15e31af98da8b68f388375ef94ac077d663a02e72a6292d6"
+    },
+    {
+      "filename": "PRA_LaTeX.zip",
+      "member": "main.tex",
+      "sha256": "ae4b3c951bc6f8bda847bc257c55f0bca6fee8eb296c016e11ce714be46b23c5",
+      "pdf_pages": 20,
+      "pdf_sha256": "b433d30c5af3f55bdd3cf960e491bf2315c6933b9d51ec6868f65bd3fa3136b1",
+      "archive_sha256": "9b60a1290ef40fd6fe2e4c1c4e6f022eae2240cc3b587d9e7022ab2689386067"
+    }
+  ],
+  "upstream_release_31_archive_sha256": "68da80125ee31309e1ceb8f1c406855c51dc5cea6ef9cbf6e93e22376f18bc14",
+  "software_version": "31.2",
+  "previous_software_archive_sha256": "b9fb5bff72cd1358f863729310b9ed2cc5fa90624388a571c1b5b85a4f8f913d",
+  "historical_documents": [
+    {
+      "filename": "文章初稿_SciPost_Physics_正文与附录复核标红版.docx",
+      "sha256": "18bccb29b73c0b662be3750ef48e61ee2ce98e57c5ad00e88acb631933891787",
+      "pages": 32
+    }
+  ],
+  "distribution": "github-preparation",
+  "source_software_archive_sha256": "aa719769cea65c88266f1f7af74d487dfa90f3541f1f9674bb5244a56ccf6c5a"
+}

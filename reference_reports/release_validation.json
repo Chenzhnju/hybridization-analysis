@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "software_version": "31.2",
+  "certificate_release": 31,
+  "distribution": "GitHub preparation, 2026-11-23",
+  "source_software_archive_sha256": "aa719769cea65c88266f1f7af74d487dfa90f3541f1f9674bb5244a56ccf6c5a",
+  "run_id": "dbeee3dcefa548dab9ecbdaa9244d507",
+  "verification_source_equal_after_lf_normalization": true,
+  "certificates_byte_identical": true,
+  "mathematical_stage_results_match_original_31_2": true,
+  "local_verification": {
+    "platform": "Windows",
+    "python_versions": [
+      "3.12.14",
+      "3.14.6"
+    ],
+    "complete_verification": "PASS_EXACT_VERIFICATION",
+    "regression_tests_per_python": 23,
+    "worked_examples": "PASS_WORKED_EXAMPLES",
+    "counts": {
+      "preliminary_vertex_checks": 216,
+      "support_orbits": 49,
+      "retained_local_types": 5,
+      "global_witnesses": 525,
+      "global_leaves": 2744,
+      "local_leaves": 467,
+      "local_row_interval_checks": 16996,
+      "weight_vertex_checks": 320,
+      "principal_and_exchanged_identities": 12,
+      "negative_controls_rejected": 18
+    }
+  },
+  "citation_schema": {
+    "version": "1.2.0",
+    "status": "PASS"
+  },
+  "python_3_8_syntax": "PASS",
+  "github_actions": {
+    "configuration": "PASS",
+    "platforms": [
+      "ubuntu-22.04",
+      "windows-2022"
+    ],
+    "python_versions": [
+      "3.8",
+      "3.12",
+      "3.14"
+    ],
+    "execution": "Pending repository publication"
+  },
+  "git_checkout": {
+    "status": "PASS",
+    "core_autocrlf": [
+      "true",
+      "false"
+    ],
+    "identical_tracked_files": 44,
+    "manifest_regeneration": "PASS",
+    "windows_launcher": "PASS_EXACT_VERIFICATION"
+  }
+}

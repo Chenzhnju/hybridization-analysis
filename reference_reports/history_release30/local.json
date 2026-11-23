@@ -1,0 +1,237 @@
+{
+  "status": "PASS_LOCAL_CERTIFICATE",
+  "scope": "Appendix D.4 local row inequalities and weights; D.4-D.5 exact scalar checks",
+  "publication_revision": 30,
+  "manuscript_sections": [
+    "D.4",
+    "Lemma D.2",
+    "D.5 (scalar checks)"
+  ],
+  "domain": {
+    "a": [
+      "0",
+      "7/125"
+    ],
+    "D": [
+      "-1/20",
+      "1/20"
+    ]
+  },
+  "precision_bits": 64,
+  "interval_engine": {
+    "status": "PASS",
+    "independent_fraction_checks": 1543
+  },
+  "grid_geometry": {
+    "exchange_plus": {
+      "grid_rows": 40,
+      "strict_rows": 37,
+      "principal_equalities": 2,
+      "third_cell": 11
+    },
+    "exchange_minus": {
+      "grid_rows": 40,
+      "strict_rows": 37,
+      "principal_equalities": 2,
+      "third_cell": 8
+    },
+    "opposite": {
+      "grid_rows": 40,
+      "strict_rows": 38,
+      "principal_equalities": 2,
+      "third_cell": 13
+    },
+    "parallel_anti": {
+      "grid_rows": 38,
+      "strict_rows": 36,
+      "principal_equalities": 2,
+      "third_cell": 12
+    },
+    "parallel_pos": {
+      "grid_rows": 38,
+      "strict_rows": 36,
+      "principal_equalities": 2,
+      "third_cell": 15
+    }
+  },
+  "basis_connection": {
+    "status": "PASS",
+    "polynomial_identity_checks": 1176
+  },
+  "identities": {
+    "status": "PASS",
+    "principal_and_exchanged_row_identities": 12,
+    "tilt_balance": true,
+    "closing_normalization": true,
+    "independence_identity": true
+  },
+  "constants": {
+    "status": "PASS",
+    "domain": {
+      "a": [
+        "0",
+        "7/125"
+      ],
+      "D": [
+        "-1/20",
+        "1/20"
+      ]
+    },
+    "n_upper": "1/11",
+    "positive_denominators": {
+      "Z_a": [
+        "12269955507725553535/18446744073709551616",
+        "13043817825332782213/18446744073709551616"
+      ],
+      "H": [
+        "9360444951700668681/9223372036854775808",
+        "7213481499244848789/4611686018427387904"
+      ],
+      "H_b": [
+        "9360444951700668681/18446744073709551616",
+        "7213481499244848789/9223372036854775808"
+      ],
+      "H_c": [
+        "9360444951700668681/18446744073709551616",
+        "7213481499244848789/9223372036854775808"
+      ]
+    },
+    "tilt_signs": {
+      "opposite": {
+        "ell": [
+          "187008490259420113/9223372036854775808",
+          "111060131041794299/2305843009213693952"
+        ],
+        "t": [
+          "187008490259420113/9223372036854775808",
+          "111060131041794299/2305843009213693952"
+        ]
+      },
+      "parallel_anti": {
+        "ell": [
+          "748033961037680453/9223372036854775808",
+          "3553924193337417565/18446744073709551616"
+        ],
+        "t": [
+          "748033961037680453/9223372036854775808",
+          "3553924193337417565/18446744073709551616"
+        ]
+      },
+      "parallel_pos": {
+        "ell": [
+          "843782308050503551/9223372036854775808",
+          "6397063548007351617/18446744073709551616"
+        ],
+        "t": [
+          "843782308050503551/9223372036854775808",
+          "6397063548007351617/18446744073709551616"
+        ]
+      }
+    },
+    "first_derivative_squared_lower": "43681/44081",
+    "second_derivative_upper": "8000/829939",
+    "averaged_coefficient": "971/7600",
+    "final_imbalance_coefficient": "1/8"
+  },
+  "weight_bounds": {
+    "exchange_plus": {
+      "status": "PASS",
+      "vertex_checks": 160,
+      "strict_excess_lower": "162918509219201297/5764607523034234880",
+      "other_rows_lower": "-7/5",
+      "special_row_lower": "12/5",
+      "strict_weight_upper": "7/19"
+    },
+    "exchange_minus": {
+      "status": "PASS",
+      "vertex_checks": 160,
+      "strict_excess_lower": "161925759223509191/18446744073709551616",
+      "other_rows_lower": "-3/2",
+      "special_row_lower": "3",
+      "strict_weight_upper": "1/3"
+    }
+  },
+  "cover": {
+    "exchange_plus": {
+      "status": "PASS",
+      "leaves": 4,
+      "row_interval_checks": 148,
+      "max_depth": 1,
+      "strict_excess_lower": "15020901924353818017/461168601842738790400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": null
+    },
+    "exchange_minus": {
+      "status": "PASS",
+      "leaves": 4,
+      "row_interval_checks": 148,
+      "max_depth": 1,
+      "strict_excess_lower": "129245529038879537/28823037615171174400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": null
+    },
+    "opposite": {
+      "status": "PASS",
+      "leaves": 88,
+      "row_interval_checks": 3344,
+      "max_depth": 4,
+      "strict_excess_lower": "433480966686576121/461168601842738790400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": "1/100"
+    },
+    "parallel_anti": {
+      "status": "PASS",
+      "leaves": 34,
+      "row_interval_checks": 1224,
+      "max_depth": 3,
+      "strict_excess_lower": "30751397537816170221/11529215046068469760000",
+      "incomplete_margin": "1/2500",
+      "third_complete_margin": "1/100"
+    },
+    "parallel_pos": {
+      "status": "PASS",
+      "leaves": 337,
+      "row_interval_checks": 12132,
+      "max_depth": 7,
+      "strict_excess_lower": "79337660383046149/2882303761517117440000",
+      "incomplete_margin": "1/2500",
+      "third_complete_margin": "1/100"
+    }
+  },
+  "total_leaves": 467,
+  "total_row_interval_checks": 16996,
+  "negative_controls_rejected": [
+    "missing local leaf",
+    "duplicated local leaf",
+    "missing local family",
+    "changed local parameter domain",
+    "unverified unsplit local rectangle",
+    "zero third-weight witness",
+    "wrong tilt sign in a principal identity"
+  ],
+  "standard_library_only": true,
+  "floating_point_in_acceptance_tests": false,
+  "analytic_connections": [
+    "closed sign-cell expansion preserves physical moments",
+    "interval inclusion follows from directed arithmetic operations",
+    "one common witness is averaged over all rows",
+    "derivative bounds are integrated on the stated interval",
+    "Appendix D.3 establishes the local domain before these bounds are used"
+  ],
+  "sha256": {
+    "verify_local.py": "5030472b36295e458114dfbe8d5d9a02a22485741149bfff8229c94cc9dbaece",
+    "local_rows.py": "662b5551fd52378eeea9be2b111328e42de0c32b4cb2cd0221f51b646eb644fd",
+    "exact_intervals.py": "d1b43b8f7515b602a62ee7a0297b4bd405110aad76c5ff0dd56e8ee95950bd19",
+    "exact_polynomials.py": "23d7fe6ab9c3112411bba22774e7deed584e2a3c2ad9eab9b8c61c856afc7a8f",
+    "verification_io.py": "1c7b04ba3bac5a4676af261b5e4bcd67e8bb2486820c4cc4b33c09ce1405a38d",
+    "certificates/local.json": "f7470e1bd776e48a6d57e0c367e901dd190a019cf15a9cd878db6ee195c3d5c0"
+  },
+  "python_version": "3.12.14",
+  "python_implementation": "CPython",
+  "seconds": 3.813,
+  "manuscript_version": "four-item-shortened-2026-11-17",
+  "run_id": "81086db1ed084f08b5e3e20590d6eca0",
+  "started_utc": "2026-11-17T12:43:15.558791+00:00",
+  "stage": "local",
+  "finished_utc": "2026-11-17T12:43:19.770470+00:00"
+}

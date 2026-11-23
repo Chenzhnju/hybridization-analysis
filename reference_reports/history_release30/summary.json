@@ -1,0 +1,87 @@
+{
+  "publication_revision": 30,
+  "manuscript_version": "four-item-shortened-2026-11-17",
+  "run_id": "81086db1ed084f08b5e3e20590d6eca0",
+  "started_utc": "2026-11-17T12:43:15.558791+00:00",
+  "status": "PASS_EXACT_VERIFICATION",
+  "python_version": "3.12.14",
+  "proof_map": {
+    "preliminaries": {
+      "code": [
+        "verify_prerequisites.py"
+      ],
+      "manuscript": [
+        "D.1 witness bound",
+        "D.2 final scalar comparison"
+      ]
+    },
+    "global": {
+      "code": [
+        "verify_global.py",
+        "certificates/global.json"
+      ],
+      "manuscript": [
+        "D.3",
+        "Lemma D.1",
+        "Eq. (D.7)"
+      ]
+    },
+    "local": {
+      "code": [
+        "verify_local.py",
+        "local_rows.py",
+        "certificates/local.json"
+      ],
+      "manuscript": [
+        "D.4",
+        "Lemma D.2",
+        "D.4-D.5 scalar checks",
+        "Eqs. (D.8)-(D.10)"
+      ]
+    },
+    "analytic_arguments_not_automated": {
+      "manuscript": [
+        "D.1 moment and witness reduction",
+        "D.2 geometric containment and conditional means",
+        "D.3 reduction of physical responses to finite covers",
+        "D.4 averaging and integration",
+        "D.5 optimal-cost comparison and endpoints",
+        "Other appendices, including the retained F.3 local-bias proof"
+      ]
+    }
+  },
+  "stages": {
+    "preliminaries": "PASS_FINITE_PRELIMINARIES",
+    "global": "PASS_GLOBAL_CERTIFICATE",
+    "local": "PASS_LOCAL_CERTIFICATE"
+  },
+  "sha256": {
+    "verify.py": "6f9dfe6a6d23d5ba0f673ecfdb84f690d4daae2a5deaf47936401de104cf5b12",
+    "verify_prerequisites.py": "e34d7da414724e6b4e5d73c8509b9a82fbe898c6ad3319c1fa45d8506a8e4e4f",
+    "verify_global.py": "96dcc08af20d7b83836e3e1376b7548aba38760e7a54283d4caae5f26cb7cb1b",
+    "verify_local.py": "5030472b36295e458114dfbe8d5d9a02a22485741149bfff8229c94cc9dbaece",
+    "local_rows.py": "662b5551fd52378eeea9be2b111328e42de0c32b4cb2cd0221f51b646eb644fd",
+    "exact_intervals.py": "d1b43b8f7515b602a62ee7a0297b4bd405110aad76c5ff0dd56e8ee95950bd19",
+    "exact_polynomials.py": "23d7fe6ab9c3112411bba22774e7deed584e2a3c2ad9eab9b8c61c856afc7a8f",
+    "verification_io.py": "1c7b04ba3bac5a4676af261b5e4bcd67e8bb2486820c4cc4b33c09ce1405a38d",
+    "certificates/global.json": "356056e233784efe284faebea841b793983df5704a0beedf14d5b03f41aead1e",
+    "certificates/local.json": "f7470e1bd776e48a6d57e0c367e901dd190a019cf15a9cd878db6ee195c3d5c0"
+  },
+  "scope": "Exact finite checks supporting Appendix D.1-D.5; analytic reductions, averaging, integration and the final cost argument remain in the manuscript.",
+  "counts": {
+    "preliminary_vertex_checks": 216,
+    "support_orbits": 49,
+    "retained_local_types": 5,
+    "global_witnesses": 525,
+    "global_leaves": 2744,
+    "local_leaves": 467,
+    "local_row_interval_checks": 16996,
+    "weight_vertex_checks": 320,
+    "principal_and_exchanged_identities": 12,
+    "negative_controls_rejected": 18
+  },
+  "standard_library_only": true,
+  "floating_point_in_acceptance_tests": false,
+  "finished_utc": "2026-11-17T12:43:19.773331+00:00",
+  "seconds": 4.219
+}

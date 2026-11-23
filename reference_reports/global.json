@@ -1,0 +1,160 @@
+{
+  "status": "PASS_GLOBAL_CERTIFICATE",
+  "scope": "global support exclusion and localization only",
+  "publication_revision": 31,
+  "certificate_data_revision": 2,
+  "manuscript_sections": [
+    "D.3",
+    "Lemma D.1"
+  ],
+  "computer_assisted": true,
+  "classification": {
+    "status": "PASS",
+    "three_cell_subsets": 560,
+    "orbits": 49,
+    "ordinary_exclusion_orbits": 43,
+    "retained_orbits": 5,
+    "antialigned_orbits": 1,
+    "smaller_supports_padded": 136,
+    "local_frame_maps": 5,
+    "retained_supports": [
+      [
+        0,
+        1,
+        14
+      ],
+      [
+        1,
+        2,
+        13
+      ],
+      [
+        1,
+        3,
+        14
+      ],
+      [
+        1,
+        4,
+        11
+      ],
+      [
+        1,
+        7,
+        8
+      ]
+    ],
+    "local_sign_cells": [
+      [
+        1,
+        8,
+        14
+      ],
+      [
+        1,
+        11,
+        14
+      ],
+      [
+        1,
+        12,
+        14
+      ],
+      [
+        1,
+        13,
+        14
+      ],
+      [
+        1,
+        14,
+        15
+      ]
+    ]
+  },
+  "analytic_premises": [
+    "normalized moment and disk witness inequalities",
+    "independent small-cost floor delta > 1/4096",
+    "attainable benchmark and its piecewise inverse",
+    "sign-cell concavity and target-preserving symmetries",
+    "written a <= 1/4 antialigned lemma (also checked here)"
+  ],
+  "downstream_written_proofs": [
+    "D.4 averaging and integration",
+    "D.5 optimal-cost comparison"
+  ],
+  "certified_local_domain": {
+    "cost": "delta > 4/5",
+    "imbalance": "|b-c| <= 1/20"
+  },
+  "analytic_mode_lemma": {
+    "status": "PASS",
+    "fixed_witnesses": 1,
+    "a_max": "1/4",
+    "verified_lower_margin": "1/4",
+    "vertex_checks": 160
+  },
+  "mode_cover": {
+    "status": "PASS",
+    "small_cost_floor": "1/4096",
+    "local_cost_floor": "4/5",
+    "local_d_max": "1/20",
+    "cases": 48,
+    "leaves": 2616,
+    "witness_leaves": 2163,
+    "row_corner_checks": 304141,
+    "witnesses": 432,
+    "witness_strict_zeta_leaves": 14,
+    "mode_symmetry_cases": 20,
+    "local_leaves": 265,
+    "simplex_leaves": 72,
+    "symmetry_mode_leaves": 99,
+    "small_cost_leaves": 3
+  },
+  "antialigned": {
+    "status": "PASS",
+    "witnesses": 93,
+    "nodes": 255,
+    "max_depth": 37,
+    "leaves": 128,
+    "witness": 126,
+    "row_corner_checks": 18040,
+    "cost_lower": 1,
+    "analytic_mode": 1
+  },
+  "negative_controls_rejected": [
+    "missing mode leaf",
+    "zero mode witness",
+    "invalid support symmetry",
+    "enlarged local domain",
+    "duplicated anti subtree",
+    "zero anti witness",
+    "zero analytic mode witness",
+    "changed analytic mode cap",
+    "zero trace for strict-visibility witness",
+    "uncertified whole-domain localization"
+  ],
+  "data_witnesses": 525,
+  "fixed_analytic_witnesses": 1,
+  "total_witnesses_including_analytic": 526,
+  "total_leaves": 2744,
+  "certificate_bytes": 155221,
+  "standard_library_only": true,
+  "floating_point_in_acceptance_tests": false,
+  "python_version": "3.14.6",
+  "python_implementation": "CPython",
+  "sha256": {
+    "certificates/global.json": "356056e233784efe284faebea841b793983df5704a0beedf14d5b03f41aead1e",
+    "verify_global.py": "3b59889125365f626a2a668011c74d720a42820a1c973b180fb87e54af1a54d2",
+    "grid_witness.py": "8b4bce3d846fbc08f0c4e3f6deb512c625c8d1bf528523dca5a47d085bc54c3a",
+    "dyadic_cover.py": "8a750693b6daa720063ef52b313d7f7d358ff02dab08f7edd600977d7f80a366",
+    "verification_io.py": "095e8e9cc7bd6c42f3fb00441777502a16f4934b1309edc0f8e09377e08cfad2"
+  },
+  "seconds": 0.231,
+  "software_version": "31.2",
+  "manuscript_version": "journal-latex-2026-11-22",
+  "run_id": "dbeee3dcefa548dab9ecbdaa9244d507",
+  "started_utc": "2026-11-23T13:06:01.605734+00:00",
+  "stage": "global",
+  "finished_utc": "2026-11-23T13:06:01.893511+00:00"
+}

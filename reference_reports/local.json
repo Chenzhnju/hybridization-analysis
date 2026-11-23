@@ -1,0 +1,283 @@
+{
+  "status": "PASS_LOCAL_CERTIFICATE",
+  "scope": "D.4 row and weight bounds, D.5 scalar checks, D.6 marginal identities.",
+  "publication_revision": 31,
+  "manuscript_sections": [
+    "D.4",
+    "Lemma D.2",
+    "D.5 (scalar checks)",
+    "D.6 (marginal identities)"
+  ],
+  "domain": {
+    "a": [
+      "0",
+      "7/125"
+    ],
+    "D": [
+      "-1/20",
+      "1/20"
+    ]
+  },
+  "precision_bits": 64,
+  "interval_engine": {
+    "status": "PASS",
+    "independent_fraction_checks": 1543
+  },
+  "grid_geometry": {
+    "exchange_plus": {
+      "grid_rows": 40,
+      "strict_rows": 37,
+      "principal_equalities": 2,
+      "third_cell": 11,
+      "sign_cells": [
+        1,
+        11,
+        14
+      ]
+    },
+    "exchange_minus": {
+      "grid_rows": 40,
+      "strict_rows": 37,
+      "principal_equalities": 2,
+      "third_cell": 8,
+      "sign_cells": [
+        1,
+        8,
+        14
+      ]
+    },
+    "opposite": {
+      "grid_rows": 40,
+      "strict_rows": 38,
+      "principal_equalities": 2,
+      "third_cell": 13,
+      "sign_cells": [
+        1,
+        13,
+        14
+      ]
+    },
+    "parallel_anti": {
+      "grid_rows": 38,
+      "strict_rows": 36,
+      "principal_equalities": 2,
+      "third_cell": 12,
+      "sign_cells": [
+        1,
+        12,
+        14
+      ]
+    },
+    "parallel_pos": {
+      "grid_rows": 38,
+      "strict_rows": 36,
+      "principal_equalities": 2,
+      "third_cell": 15,
+      "sign_cells": [
+        1,
+        14,
+        15
+      ]
+    }
+  },
+  "basis_connection": {
+    "status": "PASS",
+    "polynomial_identity_checks": 1176
+  },
+  "identities": {
+    "status": "PASS",
+    "principal_and_exchanged_row_identities": 12,
+    "tilt_balance": true,
+    "closing_normalization": true,
+    "independence_identity": true,
+    "tilt_families": 3,
+    "averaged_row_identity": true,
+    "rationalized_difference": true
+  },
+  "constants": {
+    "status": "PASS",
+    "domain": {
+      "a": [
+        "0",
+        "7/125"
+      ],
+      "D": [
+        "-1/20",
+        "1/20"
+      ]
+    },
+    "n_upper": "1/11",
+    "positive_denominators": {
+      "Z_a": [
+        "12269955507725553535/18446744073709551616",
+        "13043817825332782213/18446744073709551616"
+      ],
+      "H": [
+        "9360444951700668681/9223372036854775808",
+        "7213481499244848789/4611686018427387904"
+      ],
+      "H_b": [
+        "9360444951700668681/18446744073709551616",
+        "7213481499244848789/9223372036854775808"
+      ],
+      "H_c": [
+        "9360444951700668681/18446744073709551616",
+        "7213481499244848789/9223372036854775808"
+      ]
+    },
+    "tilt_signs": {
+      "opposite": {
+        "ell": [
+          "187008490259420113/9223372036854775808",
+          "111060131041794299/2305843009213693952"
+        ],
+        "t": [
+          "187008490259420113/9223372036854775808",
+          "111060131041794299/2305843009213693952"
+        ]
+      },
+      "parallel_anti": {
+        "ell": [
+          "748033961037680453/9223372036854775808",
+          "3553924193337417565/18446744073709551616"
+        ],
+        "t": [
+          "748033961037680453/9223372036854775808",
+          "3553924193337417565/18446744073709551616"
+        ]
+      },
+      "parallel_pos": {
+        "ell": [
+          "843782308050503551/9223372036854775808",
+          "6397063548007351617/18446744073709551616"
+        ],
+        "t": [
+          "843782308050503551/9223372036854775808",
+          "6397063548007351617/18446744073709551616"
+        ]
+      }
+    },
+    "first_derivative_squared_lower": "43681/44081",
+    "second_derivative_upper": "8000/829939",
+    "averaged_coefficient": "971/7600",
+    "symmetric_cost_at_a_max": "3481/4356",
+    "rationalized_coefficient_upper": "35/708",
+    "final_imbalance_coefficient": "1/8"
+  },
+  "weight_bounds": {
+    "exchange_plus": {
+      "status": "PASS",
+      "vertex_checks": 160,
+      "strict_excess_lower": "162918509219201297/5764607523034234880",
+      "other_rows_lower": "-7/5",
+      "special_row_lower": "12/5",
+      "strict_weight_upper": "7/19"
+    },
+    "exchange_minus": {
+      "status": "PASS",
+      "vertex_checks": 160,
+      "strict_excess_lower": "161925759223509191/18446744073709551616",
+      "other_rows_lower": "-3/2",
+      "special_row_lower": "3",
+      "strict_weight_upper": "1/3"
+    }
+  },
+  "cover": {
+    "exchange_plus": {
+      "status": "PASS",
+      "leaves": 4,
+      "row_interval_checks": 148,
+      "max_depth": 1,
+      "strict_excess_lower": "15020901924353818017/461168601842738790400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": null
+    },
+    "exchange_minus": {
+      "status": "PASS",
+      "leaves": 4,
+      "row_interval_checks": 148,
+      "max_depth": 1,
+      "strict_excess_lower": "129245529038879537/28823037615171174400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": null
+    },
+    "opposite": {
+      "status": "PASS",
+      "leaves": 88,
+      "row_interval_checks": 3344,
+      "max_depth": 4,
+      "strict_excess_lower": "433480966686576121/461168601842738790400",
+      "incomplete_margin": "1/50",
+      "third_complete_margin": "1/100"
+    },
+    "parallel_anti": {
+      "status": "PASS",
+      "leaves": 34,
+      "row_interval_checks": 1224,
+      "max_depth": 3,
+      "strict_excess_lower": "30751397537816170221/11529215046068469760000",
+      "incomplete_margin": "1/2500",
+      "third_complete_margin": "1/100"
+    },
+    "parallel_pos": {
+      "status": "PASS",
+      "leaves": 337,
+      "row_interval_checks": 12132,
+      "max_depth": 7,
+      "strict_excess_lower": "79337660383046149/2882303761517117440000",
+      "incomplete_margin": "1/2500",
+      "third_complete_margin": "1/100"
+    }
+  },
+  "equality_marginals": {
+    "status": "PASS",
+    "determinant_lower": {
+      "exchange_plus": "1/2",
+      "exchange_minus": "1"
+    },
+    "principal_weights": [
+      "1/2",
+      "1/2"
+    ],
+    "exceptional_weight": "0"
+  },
+  "total_leaves": 467,
+  "total_row_interval_checks": 16996,
+  "negative_controls_rejected": [
+    "missing local leaf",
+    "duplicated local leaf",
+    "missing local family",
+    "changed local parameter domain",
+    "unverified unsplit local rectangle",
+    "zero third-weight witness",
+    "wrong tilt sign in a principal identity"
+  ],
+  "standard_library_only": true,
+  "floating_point_in_acceptance_tests": false,
+  "analytic_connections": [
+    "closed sign-cell expansion preserves physical moments",
+    "interval inclusion follows from directed arithmetic operations",
+    "one common witness is averaged over all rows",
+    "derivative bounds are integrated on the stated interval",
+    "Appendix D.3 establishes the local domain before these bounds are used"
+  ],
+  "sha256": {
+    "verify_local.py": "d5069c3456e40761bc622901f5c8f8511e5751e9e84b7db42aad1f88a056aed0",
+    "local_rows.py": "819e47c9daccea464e3962f1c0a467044603946ebdfe3bb39a77abd6bd117171",
+    "grid_witness.py": "8b4bce3d846fbc08f0c4e3f6deb512c625c8d1bf528523dca5a47d085bc54c3a",
+    "dyadic_cover.py": "8a750693b6daa720063ef52b313d7f7d358ff02dab08f7edd600977d7f80a366",
+    "exact_intervals.py": "6ae5a4af0ae1e8b1c19c766fbaa04f23897f658d887ed0b4b8522d2e22027792",
+    "exact_polynomials.py": "e4f03781d414b05132b3c8a0cbd11f20ae3325d607c51cff0de748d1b3abf718",
+    "verification_io.py": "095e8e9cc7bd6c42f3fb00441777502a16f4934b1309edc0f8e09377e08cfad2",
+    "certificates/local.json": "f7470e1bd776e48a6d57e0c367e901dd190a019cf15a9cd878db6ee195c3d5c0"
+  },
+  "python_version": "3.14.6",
+  "python_implementation": "CPython",
+  "seconds": 1.014,
+  "software_version": "31.2",
+  "manuscript_version": "journal-latex-2026-11-22",
+  "run_id": "dbeee3dcefa548dab9ecbdaa9244d507",
+  "started_utc": "2026-11-23T13:06:01.605734+00:00",
+  "stage": "local",
+  "finished_utc": "2026-11-23T13:06:02.922430+00:00"
+}

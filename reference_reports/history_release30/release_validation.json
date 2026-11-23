@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "publication_revision": 30,
+  "recorded_utc": "2026-11-17T12:43:19.875339+00:00",
+  "release_run_id": "81086db1ed084f08b5e3e20590d6eca0",
+  "python_version": "3.12.14",
+  "prior_revision": 29,
+  "prior_run_id": "1a9d147b79e34638b8f0a14e94efa78c",
+  "exact_mathematical_results": {
+    "preliminaries": {
+      "status": "PASS",
+      "exact_report_fields_compared": [
+        "mode_cap",
+        "negative_controls_rejected",
+        "small_cost_final_square_comparison"
+      ]
+    },
+    "global": {
+      "status": "PASS",
+      "exact_report_fields_compared": [
+        "analytic_mode_lemma",
+        "analytic_premises",
+        "antialigned",
+        "certificate_bytes",
+        "certificate_data_revision",
+        "certified_local_domain",
+        "classification",
+        "computer_assisted",
+        "data_witnesses",
+        "fixed_analytic_witnesses",
+        "floating_point_in_acceptance_tests",
+        "mode_cover",
+        "negative_controls_rejected",
+        "standard_library_only",
+        "total_leaves",
+        "total_witnesses_including_analytic"
+      ]
+    },
+    "local": {
+      "status": "PASS",
+      "exact_report_fields_compared": [
+        "basis_connection",
+        "constants",
+        "cover",
+        "domain",
+        "floating_point_in_acceptance_tests",
+        "grid_geometry",
+        "identities",
+        "interval_engine",
+        "negative_controls_rejected",
+        "precision_bits",
+        "standard_library_only",
+        "total_leaves",
+        "total_row_interval_checks",
+        "weight_bounds"
+      ]
+    }
+  },
+  "byte_identical_inputs": {
+    "exact_intervals.py": "d1b43b8f7515b602a62ee7a0297b4bd405110aad76c5ff0dd56e8ee95950bd19",
+    "exact_polynomials.py": "23d7fe6ab9c3112411bba22774e7deed584e2a3c2ad9eab9b8c61c856afc7a8f",
+    "certificates/global.json": "356056e233784efe284faebea841b793983df5704a0beedf14d5b03f41aead1e",
+    "certificates/local.json": "f7470e1bd776e48a6d57e0c367e901dd190a019cf15a9cd878db6ee195c3d5c0"
+  },
+  "unchanged_mathematical_helpers": [
+    "verify_prerequisites.py:norm_upper",
+    "verify_prerequisites.py:check_mode_cap",
+    "verify_global.py:transformed",
+    "verify_global.py:orbit",
+    "verify_global.py:check_classification",
+    "verify_global.py:ceil_root",
+    "verify_global.py:inverse_comparison",
+    "verify_global.py:zeta_floor",
+    "verify_global.py:mode_coefficients",
+    "verify_global.py:clip_halfplane",
+    "verify_global.py:physical_polygon",
+    "verify_global.py:exact_int",
+    "verify_global.py:check_analytic_mode_lemma",
+    "verify_global.py:check_modes",
+    "verify_global.py:clipped_polygon",
+    "verify_global.py:check_anti_witness",
+    "verify_global.py:check_anti",
+    "verify_global.py:expect_rejection",
+    "verify_local.py:check_grid_geometry",
+    "verify_local.py:check_interval_engine",
+    "verify_local.py:check_basis_connection",
+    "verify_local.py:check_identities",
+    "verify_local.py:check_constants",
+    "verify_local.py:check_weights",
+    "verify_local.py:verify_cover",
+    "verify_local.py:expect_rejection",
+    "verify_local.py:check_negative_controls",
+    "local_rows.py:grid",
+    "local_rows.py:response",
+    "local_rows.py:parameters",
+    "local_rows.py:tilt",
+    "local_rows.py:witness",
+    "local_rows.py:gap",
+    "local_rows.py:strict_rows",
+    "local_rows.py:box_parameters",
+    "local_rows.py:check_box"
+  ],
+  "unchanged_mathematical_orchestration": [
+    "verify_prerequisites.py",
+    "verify_global.py",
+    "verify_local.py"
+  ],
+  "mathematical_negative_controls_rejected": 18,
+  "runner_regression_tests": {
+    "status": "PASS",
+    "passed": 6,
+    "tests": [
+      "corrupt_certificate_cannot_reuse_old_pass",
+      "failed_serialization_preserves_complete_report",
+      "integrity_rejects_changed_and_unsafe_entries",
+      "missing_input_records_failure_before_stages",
+      "optimized_python_rejected_for_every_verifier",
+      "success_from_other_directory_and_non_ascii_path"
+    ]
+  },
+  "note": "No claim of a runtime speedup or formal verification of analytic arguments.",
+  "windows_launcher": {
+    "status": "PASS",
+    "python_version": "3.14.6",
+    "run_id": "e705014865a248f2b092798f468aabf6",
+    "exact_results_match": true,
+    "launcher_fallback_exercised": true
+  }
+}
