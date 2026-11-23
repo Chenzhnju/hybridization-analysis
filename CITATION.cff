@@ -10,7 +10,7 @@ authors:
   - family-names: Chen
     given-names: Zeng-Bing
 version: "31.2"
-date-released: 2026-11-23
+date-released: "2026-11-23"
 license: MIT
 repository-code: "https://github.com/Chenzhnju/hybridization-analysis"
 abstract: >-
